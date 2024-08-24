@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading{
+    height: 10vh;
+    background-color: lightsteelblue;
+    color: #55679C;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.utility{
+    border: 2px solid #55679C ; 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputtag{
+    margin:3%;
+    height: 55%;
+    outline: none;
+    padding: 1%;
+
+}
+
+#addbtn{
+    height: 40%;
+    width: 10%;
+    background-color: #55679C;
+    border: none;
+}
+
+.cont{
+    background-color: beige;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.todo{
+    display: flex;
+    background-color: lightsteelblue;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+}
